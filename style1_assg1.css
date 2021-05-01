@@ -1,0 +1,290 @@
+*{
+  
+  margin: 0;
+ 
+   padding: 0;
+  
+  box-sizing: border-box;
+   
+ font-family: "Roboto", sans-serif;
+ 
+   font-size: 18px;
+}
+
+
+body{
+   
+ background-color:#333333;
+}
+
+
+.container{
+    width: 70%;
+    margin: auto;
+    padding: 40px;
+}
+
+
+.main{
+    display: flex;
+}
+
+
+.left{
+    background-color: white;
+ 
+   padding: 20px;
+   
+ width: 35%;
+}
+
+
+.right{
+    
+background-color: white;
+    
+width: 70%;
+}
+
+
+.top{
+    
+background-color: #d9d9d9;
+    height: 220px;
+}
+
+
+.profile-pic{
+    
+height: 180px;
+
+width:  180px;
+}
+
+
+.section-container{
+    padding: 20px 0;
+    color: black;
+}
+
+
+.contact{
+    
+display: flex;
+ 
+padding-bottom: 20px;
+}
+
+
+.contact .label{
+    width: 100px;
+   
+ color: black;
+    font-weight: 900;
+}
+
+
+.contact .value{
+    color:black
+}
+
+
+.contact i{
+    font-size: 24px;
+}
+
+
+.section-container .head{
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    
+
+letter-spacing: 4px;
+}
+
+
+.skill{
+    padding: 5px 0;
+}
+
+.skill-name{
+    padding-bottom: 10px;
+}
+
+.skill-range-container{
+    height: 16px;
+    background-color: white;
+}
+
+.skill-range{
+    height: 16px;
+    background-color: #000000;
+}
+
+.w80{
+    width: 80%;
+}
+
+.w70{
+    width: 70%
+}
+
+.w65{
+    width: 65%;
+}
+
+.w55{
+    width: 55%;
+}
+
+.w45{
+    width: 45%;
+}
+
+
+.language{
+    padding: 10px 0;
+}
+
+
+.language-range{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+
+.square{
+    height: 16px;
+    width: 16px;
+}
+
+
+.purple{
+    background-color: #000000;
+}
+
+
+.white{
+    background-color: #e8e8e8;
+}
+
+
+.certification{
+   font-size: 14px;
+   padding: 10px 0;
+}
+
+
+.profile-info{
+    position: relative;
+    top: 45%;
+    padding: 20px;
+}
+
+
+.profile-info .name{
+    font-size: 36px;
+    color: black;
+    padding-bottom: 10px;
+}
+
+
+.profile-info .title{
+    font-size: 28px;
+    color: black}
+
+
+.content{
+    padding: 20px;
+}
+
+
+.section{
+    padding: 10px 0;
+}
+
+
+.section-head{
+    font-size: 20px;
+    color: black;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+
+.content .detail1{
+    font-weight: 900;
+}
+
+
+.content p{
+    padding-bottom: 10px;
+}
+
+
+.about-me .desc{
+    font-size: 16px;
+}
+
+
+.experience ul{
+    list-style-type: none;
+}
+
+
+.experience ul li{
+    padding-bottom: 20px;
+    font-weight: 900;
+}
+
+
+.content .detail2{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.project{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+
+.separator{
+    position: relative;
+}
+
+.v-line{
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: #000000;
+}
+
+
+.project .section1{
+    text-align: center;
+}
+
+
+.project .section2{
+    width: 80%;
+}
+
+
+.project-title{
+    font-weight: 900;
+}
+
+.client{
+    font-weight: 700;
+}
+.env-detail{
+    font-size: 16px;
+}
